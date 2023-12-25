@@ -1,0 +1,10 @@
+//switch scene
+//for example switch to 「FreePlayMode」
+
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public void OnClickFreePlay()
+    {
+        SceneManager.LoadScene("FreePlayMode");
+    }
