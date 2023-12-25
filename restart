@@ -1,0 +1,10 @@
+//Buttonrestart
+public void OnClick()
+    {
+        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+//兩種寫法皆可，第一種是在project bulid 中對應的場景序號
+//第二種方法則是比較通用在當前場景重新reload
+//最後可將腳本拉一到一個codemanager 或該按鈕本身，並記得在按鈕的 OnClick 事件中把該物體的此腳本拉入
