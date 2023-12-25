@@ -1,0 +1,16 @@
+//按一下開啟指定UI，再按一下關閉該物件(不一定要UI，一般物件亦可)
+
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public void OnClickTipsButton()
+    {
+        if (!TipsUI.activeInHierarchy)
+        {
+            TipsUI.SetActive(true);
+        }
+        else
+        {
+            TipsUI.SetActive(false);
+        }
+    }
